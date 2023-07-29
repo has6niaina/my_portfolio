@@ -1,0 +1,65 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import comming from "../../Assets/Projects/encours.jpg";
+import HOtelWP from "../../Assets/Projects/hotelWP.jpg";
+import mid from "../../Assets/Projects/mid.png";
+import blogy from "../../Assets/Projects/blogy.png";
+
+function Projects() {
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          Mes derniers <strong className="purple">projets </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Voici quelques projets sur lesquels j'ai récemment travaillé.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mid}
+              title="Recensement d'arme à feu partout à Madagascar"
+              description="plateforme web développée pour collecter et enregistrer des informations sur les armes à feu 
+              L'objectif principal de cette application est de contribuer à la traçabilité et à la sécurité des armes à feu dans le pays en permettant aux autorités de surveiller leur 
+              circulation et leur possession légale.Conçue avec Symfony en utilisant l'APIRest et ReactJS pour le coté client."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogy}
+              isBlog={false}
+              title="Petit Blog"
+              description="Ce projet GitHub est un mini-blog développé en utilisant ReactJS, conçu pour faciliter les tests de requêtes et les interactions avec un simple fichier JSON."
+              ghLink="https://github.com/has6niaina/mini-blog-ReactJS.git"
+              /*demoLink="https://blogs.soumya-jit.tech/"*/
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HOtelWP}
+              isBlog={false}
+              title="Application de Réservation d'Hôtel sur WordPress"
+              description="Ce projet GitHub est une application de réservation d'hôtel conçue sur WordPress. L'application offre une solution complète et conviviale pour permettre aux utilisateurs de réserver des chambres d'hôtel en ligne de manière simple et efficace."
+              ghLink="https://github.com/has6niaina/Gestion-reservation-Hotel-Wordpress.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={comming}
+              isBlog={false}
+              title="encours sur github"
+              description="..."
+              ghLink="https://github.com/has6niaina/Projet-en-local-encours.git"
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Projects;

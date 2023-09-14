@@ -235,7 +235,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }
@@ -438,9 +438,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
-/* --------- */
 /* Projects */
-/* --------- */
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -536,7 +534,8 @@ button:focus {
 }
 
 /* About */
-Z .about-section {
+
+.about-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;

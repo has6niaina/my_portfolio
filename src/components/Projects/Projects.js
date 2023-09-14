@@ -16,7 +16,7 @@ function Projects() {
           Mes derniers <strong className="purple">projets </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Voici quelques projets sur lesquels j'ai récemment travaillé.
+          Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -24,7 +24,7 @@ function Projects() {
               imgPath={mid}
               title="Recensement d'arme à feu"
               description="Application web dynamique de recensement d'arme à feu à Madagascar 
-              (Ministere de l'Interieur et de la Decentralisation)."
+              (Ministere de l'Interieur et de la Décentralisation)."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -32,7 +32,7 @@ function Projects() {
               imgPath={blogy}
               isBlog={false}
               title="Petit Blog"
-              description="Ce projet GitHub est un mini-blog développé en utilisant ReactJS, conçu pour faciliter les tests de requêtes et les interactions avec un simple fichier JSON."
+              description="Ce projet est un mini-blog codé en utilisant ReactJS, conçu pour faciliter les tests de requêtes et les interactions avec un simple fichier JSON."
               ghLink="https://github.com/has6niaina/mini-blog-ReactJS.git"
             />
           </Col>
@@ -41,7 +41,7 @@ function Projects() {
               imgPath={HOtelWP}
               isBlog={false}
               title="Application de Réservation d'Hôtel sur WordPress"
-              description="Ce projet GitHub est une application de réservation d'hôtel conçue sur WordPress. L'application offre une solution complète et conviviale pour permettre aux utilisateurs de réserver des chambres d'hôtel en ligne de manière simple et efficace."
+              description="Ce projet est une application de réservation d'hôtel conçue sur WordPress. L'application offre une solution complète et conviviale pour permettre aux utilisateurs de réserver des chambres d'hôtel en ligne de manière simple et efficace."
               ghLink="https://github.com/has6niaina/Gestion-reservation-Hotel-Wordpress.git"
             />
           </Col>
@@ -49,8 +49,8 @@ function Projects() {
             <ProjectCard
               imgPath={comming}
               isBlog={false}
-              title="encours sur github"
-              description="..."
+              title="Encours de déployement dans github"
+              description="Encours"
               ghLink="https://github.com/has6niaina/Projet-en-local-encours.git"
             />
           </Col>

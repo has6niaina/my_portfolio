@@ -13,7 +13,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello World, Je suis
-            <span className="purple"> Tojonirina Hasiniaina </span>
+            <span className="purple"> Tojonirina Hasiniaina Elie ... , </span>
             d' origine <span className="purple"> Malagasy.</span>
             <br /> 3e année en Informatique de Gestion à l'université
             <span className="purple">
@@ -41,7 +41,7 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <FcElectricalSensor style={{ marginBottom: "2px" }} />{" "}
-              PhotoGraphie
+              PhonoGraphie
             </li>
             <li className="about-activity">
               <FcElectricalSensor /> La musique électronique

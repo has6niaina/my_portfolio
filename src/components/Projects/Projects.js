@@ -22,10 +22,9 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mid}
-              title="Recensement d'arme à feu partout à Madagascar"
-              description="plateforme web développée pour collecter et enregistrer des informations sur les armes à feu 
-              L'objectif principal de cette application est de contribuer à la traçabilité et à la sécurité des armes à feu dans le pays en permettant aux autorités de surveiller leur 
-              circulation et leur possession légale.Conçue avec Symfony en utilisant l'APIRest et ReactJS pour le coté client."
+              title="Recensement d'arme à feu"
+              description="Application web dynamique de recensement d'arme à feu à Madagascar 
+              (Ministere de l'Interieur et de la Decentralisation)."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -35,7 +34,6 @@ function Projects() {
               title="Petit Blog"
               description="Ce projet GitHub est un mini-blog développé en utilisant ReactJS, conçu pour faciliter les tests de requêtes et les interactions avec un simple fichier JSON."
               ghLink="https://github.com/has6niaina/mini-blog-ReactJS.git"
-              /*demoLink="https://blogs.soumya-jit.tech/"*/
             />
           </Col>
           <Col md={4} className="project-card">

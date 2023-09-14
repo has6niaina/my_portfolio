@@ -155,10 +155,9 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3.5em !important;
+  width: 4.5em !important;
 }
-
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
@@ -205,9 +204,7 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
+/* PAGE D'ACCEUIL */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -222,7 +219,8 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
+
   20% {
     transform: rotate(-8deg);
   }

@@ -25,7 +25,7 @@ function AboutCard() {
             Ampasamadinika .
             <br />
             J'ai eu l'opportunité de participer à quelques formations dans le
-            monde numerique sur le Framework{" "}
+            monde numerique sur le Framework
             <span className="purple"> Laravel </span> et{" "}
             <span className="purple">
               {" "}

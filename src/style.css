@@ -206,10 +206,10 @@ button:focus {
 
 /* PAGE D'ACCEUIL */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -397,9 +397,7 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* --------- */
 /* Footer */
-/* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
@@ -537,11 +535,8 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
 /* About */
-/* --------- */
-
-.about-section {
+Z .about-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -597,9 +592,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
 /* Resume */
-/* --------- */
 
 .resume-section {
   position: relative !important;

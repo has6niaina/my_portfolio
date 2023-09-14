@@ -6,11 +6,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Developpeur Web",
+          "Développeur Web",
           "Javascript - ReactJs",
           "PHP - Symfony",
-          "PHP - Laravel",
-          "BackEnd - FrondEnd Developpeur",
+          "Python - Django",
+          "BackEnd - FrondEnd Développeur",
         ],
         autoStart: true,
         loop: true,

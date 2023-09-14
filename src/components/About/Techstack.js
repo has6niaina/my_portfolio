@@ -36,9 +36,6 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaVuejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -56,9 +53,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDjango />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <FaWordpress />
       </Col>

@@ -10,7 +10,7 @@ function Type() {
           "Javascript - ReactJs",
           "PHP - Symfony",
           "Python - Django",
-          "BackEnd - FrondEnd Développeur",
+          "BackEnd - FrontEnd Développeur",
         ],
         autoStart: true,
         loop: true,

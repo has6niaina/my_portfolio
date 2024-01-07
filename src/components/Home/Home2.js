@@ -1,19 +1,29 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState, useRef } from "react";
+import "../../style.css";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillFacebook,
+  AiFillFacebook,s
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { ToastContainer } from "react-toastify";
+import ContactMe from "../Contact/ContactMe";
 
 function Home2() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleShow = () => {
+    setShowModal(true);
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        <ToastContainer />
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -64,16 +74,22 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>TROUVEZ-MOI ICI</h1>
-            <p>
-              Pour me<span className="purple"> contacter </span>
-            </p>
+            <h1>
+              TROUVEZ-MOI <span className="purple"> ICI </span>
+            </h1>
+
+            <Button className="p-3 mt-3" onClick={toggleShow} id="liveToastBtn">
+              Contactez-moi
+            </Button>
+            <ContactMe  showModal={showModal} handleClose={() => setShowModal(false)} />
+            <br />
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://facebook.com/tnr.has6niaina"
+                  href="https://facebook.com/tnr.hasiniaina"
                   target="_blank"
                   rel="noreferrer"
+                  t
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillFacebook />
@@ -81,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/has6niana?s=21"
+                  href="https://twitter.com/has6niaina?s=21"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -101,7 +117,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/has6niaina"
+                  href="https://www.instagram.com/tnr.hasiniaina"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

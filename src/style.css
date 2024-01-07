@@ -737,3 +737,21 @@ button:focus {
   color: inherit;
   text-decoration: none;
 }
+/*toast custom*/
+.Toastify__toast.toast-message {
+  background: linear-gradient(to left, rgb(40, 7, 107), rgb(25, 18, 45));
+  color: #fff;
+}
+/*modal */
+.modal-header {
+  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+}
+.modal-contenty{
+  background-color: #12031a;
+  color: #fff;
+  border: var(--bs-modal-border-width) solid rgb(76 0 126);
+    border-radius: 6px;
+}
+.modal-footer {
+  border-top: solid rgb(76 0 126);
+}

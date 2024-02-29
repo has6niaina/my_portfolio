@@ -1,16 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaSymfony, FaLaravel, FaVuejs, FaWordpress } from "react-icons/fa";
+import { FaSymfony, FaLaravel, FaWordpress } from "react-icons/fa";
 import {
   DiPhp,
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
-  DiDjango,
 } from "react-icons/di";
 import { SiMysql, SiPostgresql } from "react-icons/si";
 
@@ -36,9 +33,6 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -49,9 +43,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

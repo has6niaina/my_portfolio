@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FcElectricalSensor } from "react-icons/fc";
+import { MdLocalActivity } from "react-icons/md";
 
 function AboutCard() {
   /* const linkStyle = {
@@ -40,14 +40,14 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <FcElectricalSensor style={{ marginBottom: "2px" }} />{" "}
+              <MdLocalActivity style={{ marginBottom: "2px" }} />{" "}
               PhonoGraphie
             </li>
             <li className="about-activity">
-              <FcElectricalSensor /> La musique électronique
+              <MdLocalActivity /> Apprentissage de l'allemand
             </li>
             <li className="about-activity">
-              <FcElectricalSensor /> Voyage
+              <MdLocalActivity /> Voyage
             </li>
           </ul>
         </blockquote>

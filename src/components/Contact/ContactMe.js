@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
@@ -10,7 +10,7 @@ function ContactMe({ showModal, handleClose }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_aku3ial', 'template_el2vqev', form.current, 'mLSRvnZjHw_YdR6O6')
+    emailjs.sendForm('service_3mkmzrn', 'template_itw7n1o', form.current, '5GwTvaZ4Nwp1WE39l')
       .then((result) => {
         toast("Merci d'avoir laisser un message!", {
           position: toast.POSITION.BOTTOM_RIGHT,

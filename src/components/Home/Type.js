@@ -9,7 +9,7 @@ function Type() {
           "Développeur Web",
           "Javascript - ReactJs",
           "PHP - Symfony",
-          "Python - Django",
+          "Python",
           "BackEnd - FrontEnd Développeur",
         ],
         autoStart: true,

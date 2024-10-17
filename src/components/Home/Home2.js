@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "../../style.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
@@ -7,7 +7,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillFacebook,s
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { ToastContainer } from "react-toastify";
@@ -27,43 +27,45 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              SAVOIR PLUS SUR <span className="purple"> MOI </span>
+              KNOW MORE ABOUT <span className="purple"> ME </span>
             </h1>
             <p className="home-about-body">
-              Un jeune passioné par l'univers numerique et en particulier , le
-              developpement web.
-              <br /> Au cours de mon parcours, je me suis specialisé sur le
-              developpement BackEnd
+              A young enthusiast of the digital world, especially web
+              development.
+              <br /> Throughout my journey, I have specialized in BackEnd
+              development with
               <i>
-                <b className="purple"> PHP </b>
+                <a className="purple links" href="https://www.php.net/" target="_blank"> PHP </a>
               </i>
-              avec le Framework
+              using frameworks like
               <i>
-                <b className="purple"> Symfony et Laravel </b>
+                <a className="purple links" href="https://symfony.com/" target="_blank"> Symfony </a>
+              </i> and 
+                <i> 
+                  <a className="purple links" href="https://laravel.com/" target="_blank"> Laravel </a>
+                </i > ,
+              <i>  
+                <a className="purple links" href="https://www.python.org/" target="_blank"> Python </a>
               </i>
-              et du
+              using the
               <i>
-                <b className="purple"> Python </b>
-              </i>
-              avec le Framework
-              <i>
-                <b className="purple"> Django </b> , et un peu de
+                <a className="purple links" href="https://www.djangoproject.com/" target="_blank"> Django </a>
+                <b className="purple">  </b> framework, along with some
+                experience in
                 <i>
-                  <b className="purple"> NodeJs. </b>
+                  <a className="purple links" href="https://nodejs.org/" target="_blank"> NodeJs </a> .
                 </i>
               </i>
               <br />
               <br />
-              Mes formations m'ont amené à utiliser d'autres technologies tel
-              que , du
+              My training has led me to work with other technologies such as
               <i>
                 <b className="purple"> Javascript </b>
               </i>
-              en utilisant la librairie
-              <i>
-                <b className="purple"> ReactJs </b>
+              using the
+              <i> <a className="purple links" href="https://react.dev/" target="_blank"> ReactJs </a>
               </i>
-              ainsi des differents outils de developpement.
+              library, along with various development tools.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -75,13 +77,16 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>
-              TROUVEZ-MOI <span className="purple"> ICI </span>
+              FIND ME <span className="purple"> HERE </span>
             </h1>
 
             <Button className="p-3 mt-3" onClick={toggleShow} id="liveToastBtn">
-              Contactez-moi
+              Contact Me
             </Button>
-            <ContactMe  showModal={showModal} handleClose={() => setShowModal(false)} />
+            <ContactMe
+              showModal={showModal}
+              handleClose={() => setShowModal(false)}
+            />
             <br />
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -89,7 +94,6 @@ function Home2() {
                   href="https://facebook.com/tnr.hasiniaina"
                   target="_blank"
                   rel="noreferrer"
-                  t
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillFacebook />
@@ -97,17 +101,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/has6niaina?s=21"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://linkedin.com/in/has6niaina"
+                  href="https://linkedin.com/in/tnrhasiniaina"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -133,3 +127,4 @@ function Home2() {
   );
 }
 export default Home2;
+

@@ -13,26 +13,26 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mes derniers <strong className="purple">projets </strong>
+          My latest <strong className="purple">projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Voici quelques projets sur lesquels j'ai travaillé récemment.
+          Here are some projects I have recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+         {/*   <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mid}
-              title="Recensement d'arme à feu"
-              description="Application web dynamique de recensement d'arme à feu à Madagascar 
-              (Ministere de l'Interieur et de la Décentralisation)."
+              title="Firearm Census"
+              description="Dynamic web application for the census of firearms in Madagascar 
+              (Ministry of Interior and Decentralization)."
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blogy}
               isBlog={false}
-              title="Petit Blog"
-              description="Ce projet est un mini-blog codé en utilisant ReactJS, conçu pour faciliter les tests de requêtes et les interactions avec un simple fichier JSON."
+              title="Mini Blog"
+              description="This project is a mini-blog coded using ReactJS, designed to facilitate testing of requests and interactions with a simple JSON file."
               ghLink="https://github.com/has6niaina/mini-blog-ReactJS.git"
             />
           </Col>
@@ -40,17 +40,35 @@ function Projects() {
             <ProjectCard
               imgPath={HOtelWP}
               isBlog={false}
-              title="Application de Réservation d'Hôtel sur WordPress"
-              description="Ce projet est une application de réservation d'hôtel conçue sur WordPress. L'application offre une solution complète et conviviale pour permettre aux utilisateurs de réserver des chambres d'hôtel en ligne de manière simple et efficace."
+              title="Hotel Booking Application on WordPress"
+              description="This project is a hotel booking application designed on WordPress. The application offers a comprehensive and user-friendly solution to allow users to book hotel rooms online easily and efficiently."
               ghLink="https://github.com/has6niaina/Gestion-reservation-Hotel-Wordpress.git"
+            />
+          </Col>*/}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={comming}
+              isBlog={false}
+              title="Will be deployed on GitHub soon"
+            /**description="In progress"*/
+              ghLink="https://github.com/has6niaina/Projet-en-local-encours.git"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={comming}
               isBlog={false}
-              title="Encours de déployement dans github"
-              description="Encours"
+              title="Will be deployed on GitHub soon"
+            /**description="In progress"*/
+              ghLink="https://github.com/has6niaina/Projet-en-local-encours.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={comming}
+              isBlog={false}
+              title="Will be deployed on GitHub soon"
+            /**description="In progress"*/
               ghLink="https://github.com/has6niaina/Projet-en-local-encours.git"
             />
           </Col>

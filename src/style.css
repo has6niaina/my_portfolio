@@ -755,3 +755,8 @@ button:focus {
 .modal-footer {
   border-top: solid rgb(76 0 126);
 }
+/*links home2.js */
+.links {
+  text-decoration: none;
+  font-weight: bold;
+}

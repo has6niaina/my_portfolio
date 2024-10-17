@@ -12,42 +12,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello World, Je suis
+            Hello World, I am
             <span className="purple"> Tojonirina Hasiniaina Elie ... , </span>
-            d' origine <span className="purple"> Malagasy.</span>
-            <br /> 3e année en Informatique de Gestion à l'université
+            originally from <span className="purple"> Madagascar.</span>
+            <br /> 3rd year student in Management Information Systems at
             <span className="purple">
               <a href="https://www.isinfo.mg" className="no-style-link">
                 {" "}
                 IS-INFO{" "}
               </a>
             </span>
-            Ampasamadinika .
+            Ampasamadinika.
             <br />
-            J'ai eu l'opportunité de participer à quelques formations dans le
-            monde numerique sur le Framework
-            <span className="purple"> Laravel </span> et{" "}
+            I had the opportunity to participate in several training programs
+            in the digital world, including the framework
+            <span className="purple"> Laravel </span> and{" "}
             <span className="purple">
               {" "}
-              l'initiation professionnalisante en IA{" "}
+              a professional initiation in AI{" "}
             </span>
-            co-construite avec<span className="purple"> SmartOne </span> chez
-            Orange Digital Center (Analyse, Qualification, Traitement d'Images,
-            ...) <br />
+            co-constructed with<span className="purple"> SmartOne </span> at
+            Orange Digital Center (Analysis, Qualification, Image Processing,
+            etc.) <br />
             <br />
-            En dehors de la programmation, certaines autres activités que
-            j'adore faire:
+            Besides programming, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <MdLocalActivity style={{ marginBottom: "2px" }} />{" "}
-              PhonoGraphie
+              <MdLocalActivity style={{ marginBottom: "2px" }} /> Photography
             </li>
             <li className="about-activity">
-              <MdLocalActivity /> Apprentissage de l'allemand
+              <MdLocalActivity /> Cooking 
             </li>
             <li className="about-activity">
-              <MdLocalActivity /> Voyage
+              <MdLocalActivity /> Traveling
             </li>
           </ul>
         </blockquote>

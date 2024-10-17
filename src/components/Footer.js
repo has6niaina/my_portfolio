@@ -15,7 +15,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developpé par Tojonirina Hasiniaina</h3>
+          <h3>Developed by Tojonirina Hasiniaina</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} TH</h3>
@@ -34,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://facebook.com/tnr.has6niaina"
+                href="https://facebook.com/tnr.hasiniaina"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
@@ -44,17 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/has6niana?s=21"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://linkedin.com/in/has6niaina"
+                href="https://linkedin.com/in/tnrhasiniaina"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

@@ -12,7 +12,7 @@ function ContactMe({ showModal, handleClose }) {
 
     emailjs.sendForm('service_3mkmzrn', 'template_itw7n1o', form.current, '5GwTvaZ4Nwp1WE39l')
       .then((result) => {
-        toast("Merci d'avoir laisser un message!", {
+        toast("Thank you for leaving a message!", {
           position: toast.POSITION.BOTTOM_RIGHT,
           className: "toast-message",
         });
@@ -26,24 +26,24 @@ function ContactMe({ showModal, handleClose }) {
         <div className="modal-contenty">
             <Form ref={form} onSubmit={sendEmail}>
           <Modal.Header closeButton>
-            <Modal.Title>Laissez-moi un petit mot </Modal.Title>
+            <Modal.Title>Leave me a message</Modal.Title>
           </Modal.Header>
           <Modal.Body>
               <Form.Group className="mb-3">
-                <Form.Label>Votre nom</Form.Label>
+                <Form.Label>Your Name</Form.Label>
                 <Form.Control
                   type="text"
                   name="name"
-                  placeholder="Jaonina Doe"
+                  placeholder="John Doe"
                   autoFocus
                 />
               </Form.Group>
               <Form.Group className="mb-3">
-                <Form.Label>Votre adresse</Form.Label>
+                <Form.Label>Your Email</Form.Label>
                 <Form.Control
                   type="email"
                   name="user_email"
-                  placeholder="email@exemple.com"
+                  placeholder="email@example.com"
                   autoFocus
                 />
               </Form.Group>
@@ -54,10 +54,10 @@ function ContactMe({ showModal, handleClose }) {
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
-              Fermer
+              Close
             </Button>
             <Button variant="primary" type="submit" onClick={handleClose}>
-              Envoyer
+              Send
             </Button>
           </Modal.Footer>
             </Form>

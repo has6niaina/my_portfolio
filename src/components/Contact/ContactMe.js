@@ -34,7 +34,7 @@ function ContactMe({ showModal, handleClose }) {
                 <Form.Control
                   type="text"
                   name="name"
-                  placeholder="John Doe"
+                  placeholder="Name"
                   autoFocus
                 />
               </Form.Group>

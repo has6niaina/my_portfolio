@@ -1,55 +1,19 @@
-# Portfolio Développeur React.js
+# My React.js Developer Portfolio
 
-Bienvenue sur mon portfolio ! Ce dépôt contient le code source de mon site portfolio, mettant en avant mes projets réalisés en tant que développeur React.js. Ce site a été conçu pour présenter mes compétences et mes réalisations dans le domaine du développement web.
+Welcome to my online portfolio! This website was designed to showcase my skills in web development and the projects I have completed using React.js. It highlights my background, achievements, and commitment to excellence in frontend development.
 
-## Table des matières
+## About the Portfolio
 
-1. [Introduction](#introduction)  
-2. [Fonctionnalités](#fonctionnalités)  
-3. [Demo](#demo)  
-4. [Technologies Utilisées](#technologies-utilisées)  
-5. [Installation](#installation)  
-6. [Contributions](#contributions)  
-7. [Contact](#contact)  
+My portfolio includes the following sections:
 
----
+- **Home**: A clear and concise introduction about me and my professional journey.
+- **Projects**: An interactive gallery of my work, featuring web applications I have developed using React.js, with detailed information about each project.
+- **About**: A section describing my academic background, technical skills, and aspirations.
+- **Resume**: A dedicated section to view and download my resume, showcasing my professional experience, education, and technical expertise.
+- **Contact**: A simple form allowing visitors to get in touch with me for opportunities or collaborations.
 
-## Introduction
+This portfolio is entirely built with **React.js**, featuring a modern and responsive interface to provide a smooth and engaging user experience.
 
-Ce site web portfolio est une vitrine de mes projets et compétences en développement web. Il permet aux employeurs et collaborateurs potentiels de découvrir mon travail, de connaître mes compétences, et de me contacter pour d’éventuelles collaborations.
+## Explore the Portfolio
 
----
-
-## Fonctionnalités
-
-- **Design Responsive** : Optimisé pour tous les appareils (ordinateurs, tablettes, smartphones).  
-- **Galerie de Projets** : Une collection de mes projets développés avec React.js.  
-- **À Propos de Moi** : Une section décrivant mon parcours et mes compétences.  
-- **Contact** : Un formulaire simple pour faciliter les échanges.  
-- **Animations Fluides** : Utilisation de CSS moderne et JavaScript pour améliorer l’expérience utilisateur.  
-
----
-
-## Demo
-
-Vous pouvez consulter une démo en direct du site ici : hah   ha <a href="https://hasiniaina.vercel.app/" target="_blank" rel="noopener noreferrer">Lien vers la démo</a>
-
----
-
-## Technologies Utilisées
-
-- **React.js** : Développement frontend interactif.  
-- **CSS3** : Styles et mise en page.  
-- **HTML5** : Structure du site web.  
-- **Git** : Gestion de version.  
-
----
-
-## Installation
-
-Pour exécuter ce projet localement, suivez ces étapes :  
-
-1. Clonez le dépôt :  
-
-   ```bash
-   git clone https://github.com/tonutilisateur/portfolio_reactjs.git
+You can explore my portfolio by clicking here: [**hasiniaina.vercel.app**](https://hasiniaina.vercel.app/).

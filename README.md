@@ -1,6 +1,6 @@
 # My React.js Developer Portfolio
 
-Welcome to my online portfolio! This website was designed to showcase my skills in web development and the projects I have completed using React.js. It highlights my background, achievements, and commitment to excellence in frontend development.
+Welcome to my online portfolio! This website was designed to showcase my skills in web development and the projects I have completed using React.js. It highlights my background, achievements, and commitment to excellence in frontend development , with a touch of my experience in graphic design.
 
 ## About the Portfolio
 
@@ -16,4 +16,4 @@ This portfolio is entirely built with **React.js**, featuring a modern and respo
 
 ## Explore the Portfolio
 
-You can explore my portfolio by clicking here: [**hasiniaina.vercel.app**](https://hasiniaina.vercel.app/).
+You can explore my portfolio by clicking here: [**link**](https://hasiniaina.vercel.app/).

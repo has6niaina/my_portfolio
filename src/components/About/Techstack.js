@@ -9,7 +9,7 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiMysql, SiPostgresql } from "react-icons/si";
+import { SiMysql, SiPostgresql, SiCisco } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -44,9 +44,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <FaWordpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCisco />
       </Col>
     </Row>
   );

@@ -25,49 +25,54 @@ function Home2() {
       <Container>
         <ToastContainer />
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              KNOW MORE ABOUT <span className="purple"> ME </span>
-            </h1>
-            <p className="home-about-body">
-              A young enthusiast of the digital world, especially web
-              development.
-              <br /> Throughout my journey, I have specialized in BackEnd
-              development with
-              <i>
-                <a className="purple links" href="https://www.php.net/" target="_blank"> PHP </a>
-              </i>
-              using frameworks like
-              <i>
-                <a className="purple links" href="https://symfony.com/" target="_blank"> Symfony </a>
-              </i> and 
-                <i> 
-                  <a className="purple links" href="https://laravel.com/" target="_blank"> Laravel </a>
-                </i > ,
-              <i>  
-                <a className="purple links" href="https://www.python.org/" target="_blank"> Python </a>
-              </i>
-              using the
-              <i>
-                <a className="purple links" href="https://www.djangoproject.com/" target="_blank"> Django </a>
-                <b className="purple">  </b> framework, along with some
-                experience in
-                <i>
-                  <a className="purple links" href="https://nodejs.org/" target="_blank"> NodeJs </a> .
-                </i>
-              </i>
-              <br />
-              <br />
-              My training has led me to work with other technologies such as
-              <i>
-                <b className="purple"> Javascript </b>
-              </i>
-              using the
-              <i> <a className="purple links" href="https://react.dev/" target="_blank"> ReactJs </a>
-              </i>
-              library, along with various development tools.
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    KNOW MORE ABOUT <span className="purple"> ME </span>
+  </h1>
+  <p className="home-about-body">
+    I am a versatile and results-driven IT professional with experience in
+    <b className="purple"> Web Development, IT Helpdesk, and Technical Support</b>.  
+    My passion lies in building dynamic and efficient web applications while leveraging innovative technologies.
+    <br /> 
+    Throughout my journey, I have specialized in BackEnd development using:
+    <i>
+      <a className="purple links" href="https://www.php.net/" target="_blank"> PHP </a>
+    </i> with frameworks like
+    <i>
+      <a className="purple links" href="https://symfony.com/" target="_blank"> Symfony </a>
+    </i> and 
+    <i> 
+      <a className="purple links" href="https://laravel.com/" target="_blank"> Laravel </a>
+    </i>, 
+    along with
+    <i>  
+      <a className="purple links" href="https://www.python.org/" target="_blank"> Python </a>.
+    </i>
+    <br />
+    <br />
+    My training has allowed me to work with FrontEnd technologies like:
+    <i>
+      <b className="purple"> JavaScript </b>
+    </i> and the
+    <i>
+      <a className="purple links" href="https://react.dev/" target="_blank"> ReactJs </a>
+    </i> library, enabling me to build responsive and user-friendly interfaces.
+    <br />
+    Additionally, I have expertise in:
+    <ul>
+      <li><b className="purple">Database Management:</b> PostgreSQL, MySQL</li>
+      <li><b className="purple">Network Troubleshooting:</b> TCP/IP, DNS, DHCP, SSH</li>
+      <li><b className="purple">Technical Tools:</b> Micros, Linux, Windows, Windows Server, VMware</li>
+      <li><b className="purple">UI/UX Design</b></li>
+    </ul>
+    <br />
+    <br />
+    Beyond development, I have gained experience in:
+    <b className="purple"> IT Maintenance, Customer Support, and Incident Management</b>, 
+    providing exceptional service to ensure seamless operations.
+  </p>
+</Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

@@ -19,8 +19,7 @@ function About() {
               justifyContent: "center",
               paddingTop: "30px",
               paddingBottom: "50px",
-            }}
-          >
+            }} >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               WHO <strong className="purple"> AM I </strong> ?
             </h1>
@@ -29,22 +28,17 @@ function About() {
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            className="about-img"> <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Professional </strong>Skills
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
           <strong className="purple">Tools </strong>I use
         </h1>
         <Toolstack />
-
         <Github />
       </Container>
     </Container>
